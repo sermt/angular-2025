@@ -5,7 +5,7 @@ export const environment = {
   companySlogan: 'The best place to find gifs',
   companyLogo: 'assets/logo.png',
   giphyApiBaseUrl: 'https://api.giphy.com/v1/gifs',
-  giphyApiKey: 'yljByEDps2w9x0KXIyaVlx3k2FW8Edzi',
+  giphyApiKey: '',
   giphySearchEndpoint: '/search',
   giphyTrendingEndpoint: '/trending',
   giphyRandomEndpoint: '/random',
