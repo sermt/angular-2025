@@ -1,0 +1,18 @@
+<h2 class="text-2xl font-bold mt-5">Buscar Gifs</h2>
+<h3 class="text-sm text-gray-500 mt-5">Buscar gifs por nombre, descripcion o tags</h3>
+
+<section class="flex flex-col gap-4 mt-5">
+  <input
+    type="text"
+    class="p-2 border border-gray-300 rounded"
+    placeholder="Buscar gifs..."
+    [formControl]="searchTermControl"
+  />
+</section>
+
+
+@if(searchTerm().length){
+  <section class="py-5">
+    <app-gif-list [gifs]="searchTerm()!" />
+  </section>
+}
